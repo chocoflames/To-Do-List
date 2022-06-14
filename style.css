@@ -1,0 +1,80 @@
+*{
+    text-decoration: none;
+}
+.page-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+body{
+    background: linear-gradient(-45deg,red,chocolate 50%,silver 50%, gray 100%);
+}
+.container{
+    width: 300px;
+    height: 500px;
+    background: gray;
+    border-radius: 15px;
+    position: relative;
+    position: absolute;
+    top: 100px;   
+    background: linear-gradient(-45deg,gray,silver 50%,chocolate 50%,red 100%);
+    box-shadow: 0.5px 2px 5px 1px white;
+    border: solid grey;
+}
+.container:hover{
+    background: linear-gradient(-45deg,red,chocolate 50%,silver 50%,gray 100%);
+}
+.text-menu{
+    text-align: center;
+}
+.text-menu a{
+    box-shadow: 3px 5px 7px black;
+    color: black;
+}
+.todo-inp{
+    padding: 20px;
+    display: none;
+}
+.taskinp{
+    background: unset;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px white;
+}
+.taskinp:hover{
+    background: white;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px white;
+}
+.taskbtn{
+    background: unset;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px white;
+    border-radius: 5px;
+}
+.addbtn{
+    position: absolute;
+    height: 30px;
+    border-radius: 15px;
+    width: 100px;
+    bottom: -10px;
+    left: 35%;
+    background: linear-gradient(-45deg,blue,chocolate 50%,silver 50%,red 100%);
+    box-shadow: 0.5px 1px 1px 1px grey;
+    font-weight: bolder;
+}
+.addbtn:hover{
+    background: linear-gradient(-45deg,gray,silver 50%,chocolate 50%,red 100%);
+}
+.list{
+    background: beige;
+    font-weight: bold;
+    margin: 15px;
+    padding: 5px;
+    position: relative;
+}
+.fa-trash{
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+}
+.todo-num{
+    text-align: center;
+}
